@@ -1,1 +1,1 @@
-/vendor
+# Biarkan vendor diunggah karena Vercel tidak menjalankan composer install otomatis
