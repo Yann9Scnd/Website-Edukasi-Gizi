@@ -19,7 +19,7 @@
     }
   ],
 
-  "buildCommand": "composer install --no-dev && vite build",
+"buildCommand": "vite build"
 
   "outputDirectory": "public",
 
