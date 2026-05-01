@@ -17,5 +17,16 @@
     }
   ],
   "buildCommand": "vite build",
+  "env": {
+    "APP_NAME": "laravel",
+    "APP_ENV": "production",
+    "APP_DEBUG": "true",
+    "APP_URL": "https://nadibunda.vercel.app",
+    "APP_KEY": "base64:QAJqUIr7w4/8a4olA0uUtziTu40uHN+DBgpaC45Si9Q=",
+    "SESSION_DRIVER": "cookie",
+    "CACHE_STORE": "array",
+    "QUEUE_CONNECTION": "sync",
+    "DB_CONNECTION": "mysql"
+  },
   "outputDirectory": "public"
 }
