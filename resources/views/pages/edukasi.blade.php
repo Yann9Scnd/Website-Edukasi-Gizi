@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="video-section">
-    <h2 class="section-title fade-up">🎬 Video Edukasi Gizi</h2>
+    <h2 class="section-title fade-up">🎬 Video Edukasi                                                                                                                          </h2>
     <p class="section-sub fade-up">Pelajari gizi dengan cara yang menyenangkan melalui video edukatif</p>
 
     {{-- Category Tabs --}}
@@ -12,9 +12,8 @@
         @php
             $tabs = [
                 'semua'  => '🌿 Semua',
-                'bayi'   => '👶 Gizi Bayi',
-                'anak'   => '🧒 Gizi Anak',
-                'hamil'  => '🤰 Ibu Hamil',
+                'bayi'   => '👶 Edukasi Gizi',
+                'anak'   => 'Menu Sehat',
             ];
         @endphp
 

@@ -339,6 +339,34 @@ nav {
 .nutrisi-card p   { font-size: 0.75rem; color: var(--text-soft); line-height: 1.5; }
 
 /* ── RESEP SECTION ── */
+.resep-thumb {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 12px 12px 0 0;
+}
+
+.resep-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.resep-detail h4 {
+    margin-top: 10px;
+    color: #2c7a7b;
+    font-size: 1rem;
+}
+
+.resep-detail ul, 
+.resep-detail ol {
+    padding-left: 18px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.resep-detail li {
+    margin-bottom: 4px;
+}
 .resep-section { max-width: 1100px; margin: 0 auto; padding: 2rem 2rem 3rem; }
 .resep-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
 .resep-card { background: white; border-radius: var(--radius-md); overflow: hidden; border: 2px solid var(--gray-mid); box-shadow: var(--shadow-card); transition: all 0.3s ease; cursor: pointer; }

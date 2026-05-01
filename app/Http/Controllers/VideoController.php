@@ -13,15 +13,18 @@ class VideoController extends Controller
     private function getVideos(): array
     {
         return [
-            ['id' => 1, 'cat' => 'bayi',   'title' => 'MP-ASI Pertama Bayi 6 Bulan',           'desc' => 'Panduan lengkap memulai MPASI',                      'dur' => '8:24',  'views' => '12.4rb', 'rating' => '4.9','youtube_id' => 'LAfn4s8Jcps', 'bg' => '#AAFFC7', 'emoji' => '🥣'],
-            ['id' => 2, 'cat' => 'anak',   'title' => 'Menu Sehat untuk Anak Aktif',             'desc' => 'Makanan bergizi untuk anak usia 3–6 tahun',          'dur' => '11:05', 'views' => '9.1rb',  'rating' => '4.8','youtube_id' => 'dQw4w9WgXcQ', 'bg' => '#D4F0E2', 'emoji' => '🥗'],
-            ['id' => 3, 'cat' => 'hamil',  'title' => 'Nutrisi Penting Ibu Hamil Trimester 1',  'desc' => 'Asam folat dan nutrisi yang wajib dikonsumsi',        'dur' => '14:30', 'views' => '18.7rb', 'rating' => '5.0','youtube_id' => 'dQw4w9WgXcQ', 'bg' => '#EAF4F5', 'emoji' => '🤰'],
-            ['id' => 4, 'cat' => 'bayi',   'title' => 'ASI Eksklusif 0–6 Bulan',                'desc' => 'Manfaat dan cara menyusui yang benar',                'dur' => '9:15',  'views' => '22.3rb', 'rating' => '4.9','youtube_id' => 'dQw4w9WgXcQ', 'bg' => '#E6EEF5', 'emoji' => '🍼'],
-            ['id' => 5, 'cat' => 'remaja', 'title' => 'Gizi Seimbang untuk Remaja',             'desc' => 'Kebutuhan nutrisi masa pubertas',                    'dur' => '12:00', 'views' => '7.5rb',  'rating' => '4.7','youtube_id' => 'dQw4w9WgXcQ', 'bg' => '#FFF0E6', 'emoji' => '🧑'],
-            ['id' => 6, 'cat' => 'anak',   'title' => 'Mencegah Stunting pada Anak',             'desc' => 'Deteksi dini dan cara mencegah stunting',            'dur' => '16:42', 'views' => '31.2rb', 'rating' => '5.0','youtube_id' => 'dQw4w9WgXcQ', 'bg' => '#AAFFC7', 'emoji' => '📏'],
-            ['id' => 7, 'cat' => 'lansia', 'title' => 'Gizi untuk Orang Tua di Atas 60 Tahun',  'desc' => 'Kebutuhan nutrisi khusus untuk lansia',              'dur' => '13:10', 'views' => '5.8rb',  'rating' => '4.6','youtube_id' => 'dQw4w9WgXcQ', 'bg' => '#D4F0E2', 'emoji' => '👴'],
-            ['id' => 8, 'cat' => 'hamil',  'title' => 'Makanan yang Harus Dihindari Saat Hamil', 'desc' => 'Panduan keamanan pangan untuk ibu hamil',            'dur' => '10:45', 'views' => '14.9rb', 'rating' => '4.8','youtube_id' => 'dQw4w9WgXcQ', 'bg' => '#EAF4F5', 'emoji' => '🚫'],
-            ['id' => 9, 'cat' => 'bayi',   'title' => 'Gizi Bayi Usia 6–12 Bulan',              'desc' => 'Perkembangan dan kebutuhan gizi bayi',               'dur' => '15:20', 'views' => '16.1rb', 'rating' => '4.9','youtube_id' => 'dQw4w9WgXcQ',  'bg' => '#E6EEF5', 'emoji' => '👶'],
+            ['id' => 1, 'cat' => 'bayi',   'title' => 'Yuk Ibu! Cegah Anak Stunting dengan Rutin Membawa Bayi/Balita ke Posyandu', 'desc' => 'Pencegahan dari Stunting','dur' => '0:59',  'views' => '5.5rb', 'rating' => '4.9','youtube_id' => 'snHW62berwk', 'bg' => '#AAFFC7', 'emoji' => '🥣'],
+            ['id' => 9, 'cat' => 'bayi',   'title' => 'ISI PIRINGKU KAYA PROTEIN HEWANI, PROTEIN HEWANI CEGAH STUNTING', 'desc' => 'Protein Hewani Cegah Stunting',   'dur' => '3:56', 'views' => '15rb', 'rating' => '4.9','youtube_id' => 'NjWdAkoZMfU',  'bg' => '#E6EEF5', 'emoji' => '👶'],
+            ['id' => 4, 'cat' => 'bayi',   'title' => 'Ayo Terapkan Gizi Seimbang melalui Prinsip Isi Piringku','desc' => 'Gizi Seimbang', 'dur' => '5:40',  'views' => '42.1rb', 'rating' => '4.9','youtube_id' => '3e2SZB6zzaA', 'bg' => '#E6EEF5', 'emoji' => '🍼'],
+            ['id' => 3, 'cat' => 'bayi',   'title' => 'ANIMASI EDUKASI CUCI TANGAN | PUSKESMAS WONOKARTO | DENGAN LAGU', 'desc' => 'Edukasi Mengenai Cuci tangan yang benar','dur' => '01:24',  'views' => '21rb', 'rating' => '4.9','youtube_id' => 'bh-yzGauniQ', 'bg' => '#AAFFC7', 'emoji' => '🥣'],
+            ['id' => 5, 'cat' => 'bayi',   'title' => 'Ayo Cegah Stunting - Sehatpedia', 'desc' => 'Pencegahan dari Stunting','dur' => '3:12',  'views' => '734', 'rating' => '4.9','youtube_id' => 'I3zoFAVJr6I', 'bg' => '#AAFFC7', 'emoji' => '🥣'],
+            ['id' => 7, 'cat' => 'bayi',   'title' => 'Yuk Kupas Tentang Stunting...!', 'desc' => 'Penjelasan Mengenai Bahaya Stunting',   'dur' => '2:22', 'views' => '102rb', 'rating' => '4.9','youtube_id' => 'ZuHRHv-_KXw',  'bg' => '#E6EEF5', 'emoji' => '👶'],
+            ['id' => 8, 'cat' => 'bayi',   'title' => '[TUGAS AKHIR-SKRIPSI] Video Edukasi Pencegahan Obesitas pada Anak Sekolah Dasar','desc' => 'Edukasi Mengenai Pencegahan Obesitas', 'dur' => '5:35',  'views' => '5.2rb', 'rating' => '4.9','youtube_id' => 'VLJrshSEdTA', 'bg' => '#E6EEF5', 'emoji' => '🍼'],
+            ['id' => 10, 'cat' => 'bayi',   'title' => 'Gizi Buruk dan Nutrisi', 'desc' => 'Edukasi Mengenai Gizi yang Buruk','dur' => '3:35',  'views' => '30rb', 'rating' => '4.9','youtube_id' => 'OgmFQ3yGJXM', 'bg' => '#AAFFC7', 'emoji' => '🥣'],
+
+
+            ['id' => 2, 'cat' => 'anak',   'title' => 'Bubur Ganepo dengan Maxi Gudetama', 'desc' => 'MENU BUBUR SINGKONG', 'dur' => '1:20', 'views' => '90',  'rating' => '4.8','youtube_id' => 'p5dpnc3Oboc', 'bg' => '#D4F0E2', 'emoji' => '🥗'],
+            ['id' => 6, 'cat' => 'anak',   'title' => 'NIKMAT BANGET❗ CARA MASAK SUP JAGUNG WORTEL NIKMAT YANG BIKIN KETAGIHAN','desc' => 'MENU BUBUR JAGUNG', 'dur' => '4:12', 'views' => '68rb', 'rating' => '5.0','youtube_id' => 'krSLwX5xWsU', 'bg' => '#AAFFC7', 'emoji' => '📏'],
         ];
     }
 
@@ -29,11 +32,8 @@ class VideoController extends Controller
     {
         return [
             'semua'  => 'Semua',
-            'bayi'   => 'Gizi Bayi',
-            'anak'   => 'Gizi Anak',
-            'hamil'  => 'Ibu Hamil',
-            'remaja' => 'Remaja',
-            'lansia' => 'Lansia',
+            'bayi'   => 'Edukasi Gizi',
+            'anak'   => 'Menu Sehat                                                                                                                                                                                                                                                                                                                                                         ',
         ];
     }
 
